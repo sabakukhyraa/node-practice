@@ -1,0 +1,81 @@
+@startuml "Class Diagram"
+
+class Person {
+  + name: String
+}
+
+class Doctor <<Entity>> {
+  + patients: Array
+  + appointments: Array
+  + reports: Array
+  diagnose()
+  treat()
+  writeReport()
+  makeAnAppointment()
+  cancelAppointment()
+}
+
+class Patient <<Entity>> {
+  + age: Number
+  + gender: String
+  + appointments: Array
+  + discomforts: Array
+  tellDiscomfort()
+  makeAnAppointment()
+  cancelAppointment()
+}
+
+class Report {
+  + patient: Patient
+  + doctor: Doctor
+  + doctorNote: String
+  + discomfort: Discomfort
+  + treatment: Treatment
+  + controlAppointment: Appointment
+  printReport()
+}
+
+class Appointment {
+  + patient: Patient
+  + doctor: Doctor
+  + date: Date
+  + location: Clinic
+  + isCanceled: Boolean
+  + patientCame: Boolean
+}
+
+class Clinic {
+  + name: String
+  + address: String
+  + doctors: Array
+  addDoctor()
+  removeDoctor()
+}
+
+class Discomfort {
+  + patientComplaint: String
+  + doctorDefinition: String
+  + isHealed: Boolean
+  + sinceWhen: Date
+  + whenHealed: Date
+}
+
+class Treatment {
+  + name: String
+  + price: Number
+  + priceUnit: String
+}
+
+Patient -up-|> Person
+Doctor -up-|> Person
+Report - Discomfort
+Appointment -left Clinic
+Appointment - Patient
+Appointment - Doctor
+Doctor -- Report : writes >
+Patient *- Discomfort
+Treatment - Report
+' Doctor -- Treatment : does >
+Doctor -- Discomfort : heal >
+
+@enduml
