@@ -1,0 +1,91 @@
+[[
+  "1"
+],{
+  "name": "2",
+  "patients": "3",
+  "appointments": "4",
+  "reports": "5"
+},"Uzm. Dr. Emre Metin",[],[
+  "6"
+],[
+  "7",
+  "8",
+  "9"
+],{
+  "patient": "10",
+  "doctor": "1",
+  "date": "11",
+  "location": "12",
+  "isCanceled": true,
+  "whoCanceled": "10",
+  "patientCame": null
+},{
+  "patient": "10",
+  "doctor": "1",
+  "doctorNote": "13",
+  "discomfort": "14",
+  "treatment": "15",
+  "controlAppointment": null
+},{
+  "patient": "10",
+  "doctor": "1",
+  "doctorNote": "16",
+  "discomfort": "17",
+  "treatment": "18",
+  "controlAppointment": null
+},{
+  "patient": "19",
+  "doctor": "1",
+  "doctorNote": "20",
+  "discomfort": "21",
+  "treatment": "22",
+  "controlAppointment": null
+},{
+  "name": "23",
+  "age": 26,
+  "gender": "24",
+  "discomforts": "25",
+  "appointments": "26",
+  "reports": "27"
+},"2023-05-06T12:30:00.000Z",{
+  "name": "28",
+  "address": "29",
+  "doctors": "30"
+},"Merve needs Kegem to feel good.",{
+  "patientComplaint": "31",
+  "doctorDefinition": "32",
+  "sinceWhen": "33",
+  "isHealed": true,
+  "whenHealed": "34"
+},"Kegem","Merve has decay on her 12th tooth.",{
+  "patientComplaint": "35",
+  "doctorDefinition": "36",
+  "sinceWhen": "37",
+  "isHealed": true,
+  "whenHealed": "38"
+},"Kanal Tedavisi",{
+  "name": "39",
+  "age": 22,
+  "gender": "40",
+  "discomforts": "41",
+  "appointments": "42",
+  "reports": "43"
+},"Shouldn't eat at evenings",{
+  "patientComplaint": "44",
+  "doctorDefinition": "45",
+  "sinceWhen": "46",
+  "isHealed": false,
+  "whenHealed": null
+},"Proton Enhibitor Pump","Merve Ata","Female",[
+  "14",
+  "17"
+],[
+  "6"
+],[
+  "7",
+  "8"
+],"Ümraniye Kliniği","Akyazı Sk. Ahmediye Mah. No:3 Daire:9, Ümraniye/İstanbul",[],"wants love","Attention Disease","from birth","2023-04-04T14:29:22.826Z","dişim ağrıyor","Çürük","2023-04-11T21:00:00.000Z","2023-04-04T14:29:22.828Z","Ali Kerem Ata","Male",[
+  "21"
+],[],[
+  "9"
+],"stomach hurts","Ülser","2 weeks"]

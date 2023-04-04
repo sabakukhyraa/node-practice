@@ -4,8 +4,12 @@
   "description": "template the patient control system of emre-backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --ignore *.json"
   },
   "author": "Ali Kerem Ata | aliatabusiness@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "flatted": "^3.2.7"
+  }
 }
